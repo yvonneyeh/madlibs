@@ -6,43 +6,105 @@
 <body>
 
    
-    Please answer the following questions:
+    <h1>Please answer the following questions:</h1><br>
     <form action="/madlib">
-    Choose a color:
+
+    
+      Select 5 adjectives:<br>
+      <input type="checkbox" name="adjective" value="cold">cold<br>
+      <input type="checkbox" name="adjective" value="happy">happy<br>
+      <input type="checkbox" name="adjective" value="crazy">crazy<br>
+      <input type="checkbox" name="adjective" value="sour">sour<br>
+      <input type="checkbox" name="adjective" value="juicy">juicy<br>
+      <input type="checkbox" name="adjective" value="curly">curly<br>
+      <input type="checkbox" name="adjective" value="clean">clean<br>
+      <input type="checkbox" name="adjective" value="tiny">tiny<br>
+      <br>
+    
+      <form>
+        Choose a pet:
+        <select name="pet">
+          <option value="cat">Cat</option>
+          <option value="dog">Dog</option>
+          <option value="bird">Bird</option>
+          <option value="bunny">Bunny</option>
+        </select><br><br>
+    
+    Name your pet:
+    <input type="text" name="petname">
+    <br><br>
+
+    Choose a month:
+    <select name="month">
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+      <option value="December">December</option>
+    </select><br>
+    <br>
+
+    <!-- </form> -->
+      Choose a color:
     <select name="color">
       <option value="red">Red</option>
       <option value="blue">Blue</option>
       <option value="green">Green</option>
       <option value="yellow">Yellow</option>
-    </select>
+    </select><br>
+    <br>
     <!-- </form> -->
 
-    <form>
-    Choose a pet:
-    <select name="pet">
-      <option value="cat">Cat</option>
-      <option value="dog">Dog</option>
-      <option value="bird">Bird</option>
-      <option value="bunny">Bunny</option>
-    </select>
+    Choose a programming language:<br>
+    <input type="radio" name="prog_lang" value="Python">
+    <label>Python</label><br>
+    <input type="radio" name="prog_lang" value="Javascript">
+    <label>Javascript</label><br>
+    <input type="radio" name="prog_lang" value="C">
+    <label>C</label><br>
+    <input type="radio" name="prog_lang" value="Go">
+    <label>Go</label><br>
+    <input type="radio" name="prog_lang" value="Ruby">
+    <label>Ruby</label><br>
+    <input type="radio" name="prog_lang" value="Java">
+    <label>Java</label><br>
+    <input type="radio" name="prog_lang" value="Swift">
+    <label>Swift</label><br>
+    <br>
+
     <!-- </form> -->
 
     <!-- <form> -->
-    Choose a person:
+    Choose a person:<br>
     <input type="radio" name="person" value="Oprah">
-    <label>Oprah</label>
+    <label>Oprah</label><br>
     <input type="radio" name="person" value="Madonna">
-    <label>Madonna</label>
+    <label>Madonna</label><br>
     <input type="radio" name="person" value="Kobe">
-    <label>Kobe</label>
+    <label>Kobe</label><br>
     <input type="radio" name="person" value="Biden">
-    <label>Biden</label>
+    <label>Biden</label><br>
+    <br>
     <!-- </form> -->
 
-    <!-- <form> -->
-    Choose an adjective:
-    <textarea name="adjective"></textarea>
-    <!-- </form> -->
+    What's your favorite brand?:
+    <input type="text" name="brand">
+    <br><br>
+    
+    Write a past tense verb:
+    <input type="text" name="past_tense_verb">
+    <br><br>
+    
+    What's your favorite food?:
+    <input type="text" name="food">
+    <br><br>
 
     <!-- <form> -->
     <input type="submit">
